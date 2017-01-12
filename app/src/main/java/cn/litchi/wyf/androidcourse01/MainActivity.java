@@ -23,5 +23,27 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "热门电影", Toast.LENGTH_SHORT).show();
             }
         });
+        button_gp=(Button)findViewById(R.id.button_gp);
+        button_gp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "股票雄鹰", Toast.LENGTH_SHORT).show();
+            }
+        });
+        button_yd=(Button)findViewById(R.id.button_yd);
+        button_yd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "XYZ阅读器", Toast.LENGTH_SHORT).show();
+            }
+        });
+        button_bysj=(Button)findViewById(R.id.button_bysj);
+        button_bysj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "毕业设计", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 }
